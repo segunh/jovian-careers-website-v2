@@ -1,1 +1,8 @@
-python app.py
+modules = ["python-base-3.13"]
+
+[nix]
+
+[[ports]]
+localPort = 5000
+externalPort = 80
+exposeLocalhost = true
